@@ -46,15 +46,22 @@ a {
 }
 .landing {
   width: 100%;
-  padding-top: 4em;
   text-align: center;
   font-size: 50px;
   line-height: 0.5em;
-  color: #1fc2d3;
+  color: #FFFFFF;
+}
+.landingPic {
+  width: 100%;
 }
 .landingText {
-  border-top: 0.1em solid #1fc2d3;
-  border-bottom: 0.1em solid #1fc2d3;
+  border-top: 0.1em solid #FFFFFF;
+  border-bottom: 0.1em solid #FFFFFF;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }
 .greeting {
   font-weight: bold;
@@ -150,4 +157,15 @@ a {
   height: 22em;
   margin-left: auto;
   margin-right: auto
+}
+.soon {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
 }
